@@ -10,4 +10,7 @@ public class Student {
         System.out.println("Tên sinh viên: " + studentName);
         System.out.println("Tuổi: " + age);
     }
+    public double calculateAvgScore(double math, double physics, double chemistry) {
+        return (math + physics + chemistry) / 3;
+    }
 }

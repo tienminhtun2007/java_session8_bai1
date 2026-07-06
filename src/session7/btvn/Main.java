@@ -8,5 +8,7 @@ public class Main {
         student2.studentName = "Trần Thị B";
         student1.displayData();
         student2.displayData();
+        double avgScore = student1.calculateAvgScore(8.5, 7.0, 9.0);
+        System.out.println("Average score: " + avgScore);
     }
 }

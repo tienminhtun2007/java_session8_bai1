@@ -38,5 +38,6 @@ public class TinhHoaDon {
         System.out.printf("Giảm giá thành viên (10%%): %.3f VND%n", discountPrice);
         System.out.printf("Tiền VAT (8%%): %.3f VND%n", VAT);
         System.out.printf("Tổng thanh toán: %.3f VND%n", finalPrice);
+
     }
 }
